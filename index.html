@@ -1,12 +1,152 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Colin's Portfolio Site</title>
-</head>
-<body>
-    <h1>I'm Colin and this is my site. Welcome!</h1>
-</body>
+	<head>
+		<title>Colin Jaffe's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1>Colin Jaffe</h1>
+						<p>Full Stack Web Developer</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#profile" class="active">Profile</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#tools">Tools</a></li>
+							<li><a href="#availability">Availabilty</a></li>
+						</ul>
+					</nav>
+
+					<div id="main">
+
+							<section id="profile" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>I'm a web developer with a passion for expressive, maintainable code and an attention to detail in design and implementation.</p>
+										<p>&quot;Programs must be written for people to read, and only incidentally for machines to execute.&quot; - Harold Abelson</p>
+										<p>I refuse to write about myself in the third person.</p>
+									</div>
+									<span class="image"><img src="images/photo.jpg" alt="" /></span>
+								</div>
+							</section>
+
+
+							<section id="portfolio" class="main special">
+								<header class="major">
+									<h2>My Portfolio</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="major"><a href="https://github.com/team-bisque/bisque" target = "_blank" class="no-underline"><img src = "images/bisque.jpg" /></a></span>
+										<a href="https://github.com/team-bisque/bisque" target = "_blank"><h3>Bisque</h3></a>
+										<p>A chrome extension for writers and students to track their productivity and distractibility behind the scenes, using D3, React-Redux, and Firebase, and maintained through extensive automatic tests.</p>
+									</li>
+									<li>
+										<span class="major"><a href = "https://github.com/jennyrchan/millhouse" target = "_blank" class="no-underline"><img src = "images/millhouse.jpg" /></a></span>
+										<a href = "https://github.com/jennyrchan/millhouse" target = "_blank"><h3>Millhouse</h3></a>
+										<p>An e-commerce site for breakfast surreal. A bizarre non-humor theme for a real-world prototype, but my team and I learned a lot building it from the ground up.</p>
+									</li>
+									<li>
+										<span class="major"><a href = "http://github.com/abbreviatedman/SeanBeansFinalMoments" target = "_blank" class="no-underline"><img src = "images/seanbean.jpg" /></a></span>
+										<a href = "http://github.com/abbreviatedman/SeanBeansFinalMoments" target = "_blank"><h3>Sean Bean's Final Moments</h3></a>
+										<p>A React Native mobile app that lets you watch every final scene of famously-short-lived actor Sean Bean.</p>
+									</li>
+									<li>
+										<span class="major"><a href = "http://github.com/abbreviatedman/gameofleaf" target = "_blank" class="no-underline"><img src = "images/game-of-leaf.jpg" /></a></span>
+										<a href = "http://github.com/abbreviatedman/gameofleaf" target = "_blank"><h3>Game of Leaf</h3></a>
+										<p>What is even nerdier than implementing Conway's Game of Life in a functional front-end language?</p><p>Nothing. Nothing is nerdier.</p>
+									</li>
+								</ul>
+							</section>
+
+							<section id="tools" class="main special">
+								<header class="major">
+									<h2>Tools of the Trade</h2>
+									<p>First check if it's a nail.<br />
+									Only then bring down the hammer.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1" id="terminal">
+										<span class="icon fa-terminal"></span>
+										<strong>Back End</strong>
+									</li>
+									<li class="style2" id="database">
+										<span class="icon fa-database"></span>
+										<strong>Databases</strong>
+									</li>
+									<li class="style3" id="code">
+										<span class="icon fa-code"></span>
+										<strong>Language</strong>
+									</li>
+									<li class="style4" id="css3">
+										<span class="icon fa-css3"></span>
+										<strong>Front End</strong>
+									</li>
+									<li class="style5" id="code-fork">
+										<span class="icon fa-code-fork"></span>
+										<strong>Collaboration</strong>
+									</li>
+								</ul>
+								<p class="content">For the back-end, I generally use <strong>Node</strong>, <strong>Express</strong> and <strong>Sequelize</strong>, but I recently used <strong>Firebase</strong> for a project and enjoyed it, and I'm curious about <strong>AWS</strong>, as well as other database systems (<strong>SQL</strong> and <strong>NoSQL</strong> alike). I'm quite enamored of <strong>JavaScript</strong> despite the language's flaws and consequent detractors, but I've used <strong>Elm</strong> and <strong>C++</strong> some, and particularly liked their strict typing. (Possibly <strong>TypeScript</strong> is in my very near future.) For the front-end, I love <strong>React</strong>'s hierarchical one-way data flow an awful lot, and I'm currently exploring <strong>React Native</strong>, but I'd love an opportunity to work with an <strong>Angular</strong> team, or possibly try one of the newer, lighter <strong>React</strong>-style frameworks. I'm a strong believer in state management systems, and <strong>Redux</strong>'s ideas of centrality and immutability have greatly increased my projects' ease of scalability. But the most effective tool I've learned since starting this career is the resource that is <strong>my fellow coders</strong>. I love pair programming and learning from others' code, and trying to write code that will be a joy for them to read.</p>
+
+								<p>&quot;From each frame-work according to its ability, to each code-base according to its needs, &quot; - Karl Marx, Lead Designer of <strong>Socialist.js</strong>
+							</section>
+
+							<section id="availability" class="main special">
+								<header class="major">
+									<h2>Availability</h2>
+									<p>I am currently looking for the right position, preferably in or around NYC.</p>
+								</header>
+							</section>
+
+					</div>
+
+					<footer id="footer">
+						<section>
+							<h2>Contact Me</h2>
+							<p>Best way to reach me is via email, but all reasonable options are to the right over there.</p>
+
+							<p>No, over <em>there</em>.</p>
+						</section>
+					<div>
+						<section>
+							<h2>Where I Am</h2>
+							<dl class="alt">
+								<dt><span class="icon fa-map-pin alt"></span></dt>
+								<dd>Greater New York City</dd>
+								<dt><span class="icon fa-phone alt"></span></dt>
+								<dd>(617) 922-0920</dd>
+								<dt><a href="mailto:colin.jaffe@gmail.com" class="no-underline"><span class="icon fa-envelope alt"></span></a></dt>
+								<dd><a href="mailto:colin.jaffe@gmail.com">colin.jaffe@gmail.com</a></dd>
+								<dt><a href="http://github.com/abbreviatedman" target = "_blank" class="no-underline"><span class="icon fa-github alt"></span></a></dt>
+								<dd><a href="http://github.com/abbreviatedman" target = "_blank">github.com/abbreviatedman</a></dd>
+								<dt><a href="http://linkedin.com/in/colin-jaffe" target = "_blank" class="no-underline"><span class="icon fa-linkedin alt"></span></a></dt>
+								<dd><a href="http://linkedin.com/in/colin-jaffe" target = "_blank">linkedin.com/in/colin-jaffe</a></dd>
+							</dl>
+						</section>
+					</footer>
+
+			</div>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
